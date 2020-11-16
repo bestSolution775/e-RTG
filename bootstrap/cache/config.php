@@ -177,7 +177,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => 'E:\\working_folder\\E-RTG Project\\storage\\framework/cache/data',
+        'path' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -254,7 +254,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'ssgrtrop_crt_project',
+        'database' => 'crt_project',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -264,9 +264,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'ssgrtrop_crt_project',
-        'username' => 'ssgrtrop_admin',
-        'password' => 'q]ogeTd7gx}y',
+        'database' => 'crt_project',
+        'username' => 'root',
+        'password' => '',
         'unix_socket' => '',
         'charset' => 'utf8mb4',
         'collation' => 'utf8mb4_general_ci',
@@ -284,9 +284,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'ssgrtrop_crt_project',
-        'username' => 'ssgrtrop_admin',
-        'password' => 'q]ogeTd7gx}y',
+        'database' => 'crt_project',
+        'username' => 'root',
+        'password' => '',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -299,9 +299,9 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'ssgrtrop_crt_project',
-        'username' => 'ssgrtrop_admin',
-        'password' => 'q]ogeTd7gx}y',
+        'database' => 'crt_project',
+        'username' => 'root',
+        'password' => '',
         'charset' => 'utf8',
         'prefix' => '',
         'prefix_indexes' => true,
@@ -343,12 +343,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => 'E:\\working_folder\\E-RTG Project\\storage\\app',
+        'root' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => 'E:\\working_folder\\E-RTG Project\\storage\\app/public',
+        'root' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -365,7 +365,7 @@
     ),
     'links' => 
     array (
-      'E:\\working_folder\\E-RTG Project\\public\\storage' => 'E:\\working_folder\\E-RTG Project\\storage\\app/public',
+      'E:\\working_folder\\real_project\\e-RTG Project\\public\\storage' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\app/public',
     ),
   ),
   'hashing' => 
@@ -399,13 +399,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => 'E:\\working_folder\\E-RTG Project\\storage\\logs/laravel.log',
+        'path' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => 'E:\\working_folder\\E-RTG Project\\storage\\logs/laravel.log',
+        'path' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -455,7 +455,7 @@
       ),
       'emergency' => 
       array (
-        'path' => 'E:\\working_folder\\E-RTG Project\\storage\\logs/laravel.log',
+        'path' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\logs/laravel.log',
       ),
     ),
   ),
@@ -512,7 +512,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => 'E:\\working_folder\\E-RTG Project\\resources\\views/vendor/mail',
+        0 => 'E:\\working_folder\\real_project\\e-RTG Project\\resources\\views/vendor/mail',
       ),
     ),
   ),
@@ -591,7 +591,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => 'E:\\working_folder\\E-RTG Project\\storage\\framework/sessions',
+    'files' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -611,9 +611,9 @@
   array (
     'paths' => 
     array (
-      0 => 'E:\\working_folder\\E-RTG Project\\resources\\views',
+      0 => 'E:\\working_folder\\real_project\\e-RTG Project\\resources\\views',
     ),
-    'compiled' => 'E:\\working_folder\\E-RTG Project\\storage\\framework\\views',
+    'compiled' => 'E:\\working_folder\\real_project\\e-RTG Project\\storage\\framework\\views',
   ),
   'flare' => 
   array (

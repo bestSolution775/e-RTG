@@ -47,7 +47,7 @@ class CountryController extends Controller
         ]);
         if (!($request['id']))
         {   
-            country::create($request->except("_token","_method"));
+            Country::create($request->except("_token","_method"));
             return redirect('/countries');
         }
         else

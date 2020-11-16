@@ -1,5 +1,5 @@
 
-// var API_URL = "http://ssgrtrophy.com/e-RTG/public/";
+var API_URL = "http://ssgrtrophy.com/e-RTG/public/";
 
 function update_user(that){
   $("#update_user").modal()
